@@ -12,9 +12,17 @@ Chinaza@ubuntu:~$ **_**
 <pre>
 
 ## 1-compiler
-I created a file that generates the assembly code of a C code but with an extension of .s
+I created a file that generates the assembly code of a C code but with an extension of .c
 <pre>
 Chinaza@ubuntu:~$ gcc main.c -c
 Chinaza@ubuntu:~$ ./1-compiler
 Chinaza@ubuntu:~$ ./c
+<pre>
+
+## 2-assembler
+I created a file that genertes the assembly code of a Ccode but with an extension of .s
+<pre>
+Chinaza@ubuntu:~$ gcc main.c -s
+Chinaza@ubuntu:~$ ./1-compiler
+Chinaza@ubuntu:~$ ./s
 <pre>
