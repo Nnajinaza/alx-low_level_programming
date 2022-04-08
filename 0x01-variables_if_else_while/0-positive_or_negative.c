@@ -10,8 +10,7 @@ int main(void)
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
-		printf("variable: ");
-		scanf("%n");
+		printf("98");
 		if (n > 0)
 	       	{
 			printf("is positive");
