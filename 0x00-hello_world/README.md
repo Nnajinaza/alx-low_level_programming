@@ -34,3 +34,12 @@ Chinaza@ubuntu:~$ export CFILE="0-cisfun"
 Chinaza@ubuntu:~$ ./3-name
 Chinaza@ubuntu:~$ ./cisfun
 <pre>
+
+## 4-puts.c
+I created a program that has a function puts that was creates a programm and conpiles the program
+
+<pre>
+Chinaza@ubuntu:~$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
+Chinaza@ubuntu:~$ ./4-puts.c
+Chinaza@ubuntu:~$ ./c
+<pre>
