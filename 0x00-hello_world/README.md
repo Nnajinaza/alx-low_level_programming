@@ -37,9 +37,16 @@ Chinaza@ubuntu:~$ ./cisfun
 
 ## 4-puts.c
 I created a program that has a function puts that was creates a programm and conpiles the program
-
 <pre>
 Chinaza@ubuntu:~$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
 Chinaza@ubuntu:~$ ./4-puts.c
+Chinaza@ubuntu:~$ ./c
+<pre>
+
+## 5-printf.c
+T created a program that has a function printf that creates a program and compiles it with the -Wall gcc option
+<pre>
+Chinaza@ubuntu:~$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-print.c && ./a.out
+Chinaza@ubuntu:~$ ./5-printf.c
 Chinaza@ubuntu:~$ ./c
 <pre>
