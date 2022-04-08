@@ -23,6 +23,14 @@ Chinaza@ubuntu:~$ ./c
 I created a file that genertes the assembly code of a Ccode but with an extension of .s
 <pre>
 Chinaza@ubuntu:~$ gcc main.c -s
-Chinaza@ubuntu:~$ ./1-compiler
+Chinaza@ubuntu:~$ ./2-assembler
 Chinaza@ubuntu:~$ ./s
+<pre>
+
+## 3-name
+I created a file that compiles a C file and creates a executable file named cisfun
+<pre>
+Chinaza@ubuntu:~$ export CFILE="0-cisfun"
+Chinaza@ubuntu:~$ ./3-name
+Chinaza@ubuntu:~$ ./cisfun
 <pre>
