@@ -12,15 +12,15 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 					/* your code goes there */
 		printf("98 /n ");
-		if (n > 0);
+			if (n > 0);
 	{
 		printf("is positive /n");
 	}
-		else if (n == 0);
+			else if (n == 0);
 	}
 		printf("is zero/n");
 	}
-		else
+			else (n < 0)
 	{
 		printf("is negative/n");
 	}
