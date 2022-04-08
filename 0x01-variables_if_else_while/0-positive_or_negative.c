@@ -10,7 +10,8 @@ int main(void)
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
-		printf("The variable: "); 
+		printf("variable: ");
+		scanf("%n");
 		if (n > 0)
 	       	{
 			printf("is positive");
@@ -18,10 +19,10 @@ int main(void)
 		else if (n == 0)
 	       	{
 			printf("is zero");
-		}	
-		else 
+		}
+		else
 		{
 			printf("is negative");
-		}	
+		}
 		return (0);
 }
