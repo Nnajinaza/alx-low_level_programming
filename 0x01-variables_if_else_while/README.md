@@ -5,3 +5,6 @@ This file is used to create a program that prints out variables whether positive
 
 ## 1-last_digit.c
 This file contains the program to check if the last digit of 'n' is present, equalsto, or negative
+
+## 2-print_alphabet.c
+This file contains the program to print out alphabets in lowercase
