@@ -14,7 +14,7 @@ int main(void)
 	for (num1 = 00; num1 <= 98; num1++)
 	{
 		for (num2 = 01; num2 <= 99; num2++)
-		{	
+		{
 			putchar(num1);
 			putchar(' ');
 			putchar(num2);
@@ -26,5 +26,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
