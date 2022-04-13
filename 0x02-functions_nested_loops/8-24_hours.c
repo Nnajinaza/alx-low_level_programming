@@ -12,13 +12,12 @@ void jack_bauer(void)
 
 	while (d <= '2')
 	{
-	_putchar('d');
+	_putchar(d + '0');
 	d++;
 	}
-		while (jack_bauer == '3')
+		while (d == '3')
 		{
-			_putchar('d');
+			_putchar(d + '0');
 			d++;
 		}
-
 }
