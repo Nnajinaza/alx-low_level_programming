@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - Entry point
- *
+ * @c: Entry point
  * Return: Always 0
  */
 
