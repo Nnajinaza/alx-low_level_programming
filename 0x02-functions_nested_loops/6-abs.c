@@ -2,15 +2,14 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
- *
- * Return: Always 0
+ * _abs -check the code
+ * @r: Entry value
+ * Return: Always 0.
  *
  */
 
-int _abs(int)
+int _abs(int r)
 {
-	int;
-	_putchar(num + '0');
+	_putchar(r);
 	return (0);
 }
