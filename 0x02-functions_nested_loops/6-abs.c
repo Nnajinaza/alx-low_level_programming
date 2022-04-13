@@ -10,6 +10,18 @@
 
 int _abs(int r)
 {
-	_putchar(r);
+	if (r >= 0)
+	{
+		return (r);
+	}
+	else if (r <= 0)
+	{
+		return (-r);
+	}
+	else if (r == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
 	return (0);
 }

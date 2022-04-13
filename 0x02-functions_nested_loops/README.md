@@ -14,3 +14,5 @@ Created a function that checks for lowercase alphabet
 
 #4-isalpha.c
 Created a fuction that checks for alphabets
+
+#
