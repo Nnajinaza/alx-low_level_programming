@@ -23,3 +23,12 @@ chinaza@ubuntu:/debugging$ wc -l 1-main.c
 chinaza@ubuntu:/debugging$
 <pre>
 
+#2-largest_number.c
+I created a file that prints out the largest number when checked with other numbers.
+
+<pre>
+chinaza@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 2-largest_number.c 2-main.c -o 2-main
+chinaza@ubuntu:/debugging$ ./2-main
+982 is the largest number
+chinaza@ubuntu:/debugging$
+<pre>
