@@ -46,7 +46,7 @@ chinaza@ubuntu:~/0x04$ ./3-print_numbers | cat -e
 chinaza@ubuntu:~/0x04$
 <pre>
 
-# 4-print_most_numbers
+# 4-print_most_numbers.c
 
 I created a program that prints all the from 0 to 9 with the exception of 2 and 4
 
@@ -55,4 +55,18 @@ chinaza@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c
 chinaza@ubuntu:~/0x04$ ./4-print_most_numbers 
 01356789
 chinaza@ubuntu:~/0x04$
+<pre>
+
+# 6-print_line.c
+
+I created a program that prints a line using '_'to the number of times the  user wants
+
+<pre>
+chinaza@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-print_line.c -o 6-lines
+chinaza@ubuntu:~/0x04$ ./6-lines | cat -e
+$
+__$
+__________$
+$
+chinaza@ubuntu:~/0x04$ 
 <pre>
