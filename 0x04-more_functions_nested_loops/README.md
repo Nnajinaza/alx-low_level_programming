@@ -10,3 +10,15 @@ A: 1
 a: 0
 chinaza@ubuntu:~/0x04$
 <pre>
+
+# 1-isdigit.c
+
+I created a file that checks for the digit characters
+
+<pre>
+chinaza@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-isdigit.c -o 1-isdigit
+chinaza@ubuntu:~/0x04$ ./1-isdigit 
+0: 1
+a: 0
+chinaza@ubuntu:~/0x04$
+<pre>
