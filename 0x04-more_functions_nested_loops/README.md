@@ -45,3 +45,14 @@ chinaza@ubuntu:~/0x04$ ./3-print_numbers | cat -e
 0123456789$
 chinaza@ubuntu:~/0x04$
 <pre>
+
+# 4-print_most_numbers
+
+I created a program that prints all the from 0 to 9 with the exception of 2 and 4
+
+<pre>
+chinaza@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_most_numbers.c -o 4-print_most_numbers
+chinaza@ubuntu:~/0x04$ ./4-print_most_numbers 
+01356789
+chinaza@ubuntu:~/0x04$
+<pre>
