@@ -22,3 +22,15 @@ chinaza@ubuntu:~/0x04$ ./1-isdigit
 a: 0
 chinaza@ubuntu:~/0x04$
 <pre>
+
+# 2-mul.c
+
+I created a file that multipies two integers
+
+<pre>
+chinaza@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-mul.c -o 2-mul
+chinaza@ubuntu:~/0x04$ ./2-mul 
+100352
+-1646592
+chinaza@ubuntu:~/0x04$
+<pre>
