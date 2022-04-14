@@ -1,6 +1,6 @@
 ## 0x04-more_functions_nested_loops
 
-# 0-isupper.c
+### 0-isupper.c
 I created a file that checkes for the uppercase character
 
 <pre>
@@ -11,7 +11,7 @@ a: 0
 chinaza@ubuntu:~/0x04$
 <pre>
 
-# 1-isdigit.c
+## 1-isdigit.c
 
 I created a file that checks for the digit characters
 
@@ -23,7 +23,7 @@ a: 0
 chinaza@ubuntu:~/0x04$
 <pre>
 
-# 2-mul.c
+## 2-mul.c
 
 I created a file that multipies two integers
 
@@ -35,7 +35,7 @@ chinaza@ubuntu:~/0x04$ ./2-mul
 chinaza@ubuntu:~/0x04$
 <pre>
 
-# 3-print_numbers.c
+## 3-print_numbers.c
 
 I created a program that reads out the integers 0 to 9
 
@@ -46,7 +46,7 @@ chinaza@ubuntu:~/0x04$ ./3-print_numbers | cat -e
 chinaza@ubuntu:~/0x04$
 <pre>
 
-# 4-print_most_numbers.c
+## 4-print_most_numbers.c
 
 I created a program that prints all the from 0 to 9 with the exception of 2 and 4
 
@@ -57,7 +57,7 @@ chinaza@ubuntu:~/0x04$ ./4-print_most_numbers
 chinaza@ubuntu:~/0x04$
 <pre>
 
-# 6-print_line.c
+## 6-print_line.c
 
 I created a program that prints a line using '_'to the number of times the  user wants
 
@@ -70,3 +70,28 @@ __________$
 $
 chinaza@ubuntu:~/0x04$ 
 <pre>
+
+## 7-print_diagonals.c
+
+T created a file that prints diagonally depending of the users choice of length
+
+<pre>
+chinaza@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_diagonal.c -o 7-diagonals
+chinaza@ubuntu:~/0x04$ ./7-diagonals | cat -e
+$
+\$
+ \$
+\$
+ \$
+  \$
+   \$
+    \$
+     \$
+      \$
+       \$
+        \$
+         \$
+$
+chinaza@ubuntu:~/0x04$
+<pre>
+
