@@ -2,9 +2,9 @@
 
 /**
  * times_table - Entry poin
- * @i: Entry value
- * @j: Entry value
- * @d: Multiplication value
+ *
+ *
+ *
  * Return: Always o
  */
 
