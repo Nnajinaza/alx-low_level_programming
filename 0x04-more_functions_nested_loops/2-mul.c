@@ -2,9 +2,9 @@
 
 /**
  * mul - Entry point
- * @a: Entry value
- * @b: Entry value
- * @d: Sum value
+ * @a: Entry point
+ * @b: Entry point
+ * @d: Product
  * Return: Always 0
  */
 

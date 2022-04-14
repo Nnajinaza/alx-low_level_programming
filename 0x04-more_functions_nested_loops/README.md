@@ -34,3 +34,14 @@ chinaza@ubuntu:~/0x04$ ./2-mul
 -1646592
 chinaza@ubuntu:~/0x04$
 <pre>
+
+# 3-print_numbers.c
+
+I created a program that reads out the integers 0 to 9
+
+<pre>
+chinaza@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-print_numbers.c -o 3-print_numbers
+chinaza@ubuntu:~/0x04$ ./3-print_numbers | cat -e
+0123456789$
+chinaza@ubuntu:~/0x04$
+<pre>
