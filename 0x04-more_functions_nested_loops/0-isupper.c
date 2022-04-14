@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * int _isupper(int c) - Entry point
+ * _isupper - Entry point
  * @c: Entry value
- *
  * Return: Always 0
  */
 
