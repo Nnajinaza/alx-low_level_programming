@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Entry point
- *
+ * @n: Entry value
  * Return: Always 0
  */
 
