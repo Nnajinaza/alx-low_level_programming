@@ -95,3 +95,25 @@ $
 chinaza@ubuntu:~/0x04$
 <pre>
 
+## 8-print_square.c
+
+I created a file that prints out a square depending on the users amount
+
+<pre>
+chinaza@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-main.c 8-print_square.c -o 8-squares
+chinaza@ubuntu:~/0x04$ ./8-squares 
+##
+##
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+
+chinaza@ubuntu:~/0x04$ 
+<pre>
