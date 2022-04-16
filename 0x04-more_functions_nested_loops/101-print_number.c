@@ -1,8 +1,10 @@
 #include "main.h"
 
 /*
- * print_number - prints an integer n
- *@n: integer to be printed
+ * print_number - Enjot point
+ * @n: integer to be printed
+ * @n1: Entry message
+ *
  */
 void print_number(int n)
 {
@@ -18,7 +20,7 @@ void print_number(int n)
 	{
 		n1 = n;
 	}
-	
+
 	if (n1 / 10)
 	{
 	print_number(n1 / 10);
