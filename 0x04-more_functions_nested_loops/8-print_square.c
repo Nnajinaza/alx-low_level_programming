@@ -11,24 +11,20 @@ void print_square(int size)
 	int m;
 	int k;
 
-	if (size <= 0)
-	{
-		_putchar('\n');
-	}
-	else if (size == 0)
-	{
-		_putchar('\n');
-	}
-	else
+	if (size > 0)
 	{
 		for (m = 0; m < size; m++)
 		{
 			for (k = 0; k < size; k++)
-			{
-				_putchar('#');
-			}
-			_putchar('#');
-			_putchar('\n');
+
+					_putchar('#');
+				_putchar('\n');
+
 		}
+
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
