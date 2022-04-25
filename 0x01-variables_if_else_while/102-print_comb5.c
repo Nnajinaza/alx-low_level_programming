@@ -10,19 +10,29 @@ int main(void)
 {
 	int num1;
 	int num2;
+	int num3;
+	int num4;
 
-	for (num1 = 00; num1 <= 98; num1++)
+	for (num1 = '0'; num1 <= '9'; num1++)
 	{
-		for (num2 = 01; num2 <= 99; num2++)
+		for (num2 = '0'; num2 <= '8'; num2++)
 		{
-			putchar(num1);
-			putchar(' ');
-			putchar(num2);
-
-			if (num1 != 98 && num2 != 99)
+			for (num3 = num1; num3 <= '9'; num3++)
 			{
-				putchar(',');
-				putchar(' ');
+				for (num4 = (num2 + '1'); num4 <= '9'; num4++)
+				{
+					putchar('0' + num1);
+					putchar('0' + num2);
+					putchar(' ');
+					putchar('0' + num3);
+					putchar('0' + num4);
+
+					if (num1 <= 9 && num2 <= 8)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
