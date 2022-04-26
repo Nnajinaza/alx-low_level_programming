@@ -3,7 +3,7 @@
 
 /**
  * print_diagsums - Entry point
- * @a: pointer 
+ * @a: pointer
  * @size: column
  * Return: void
  */
