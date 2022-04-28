@@ -1,36 +1,36 @@
 #include "main.h"
 
 /**
- *_evaluate - Entry point
- *@i: interger
- *@n: interger
- *Return: evaluate sqrt
+ * square_root - determines the square root of
+ * @j: an input value
+ * @i: input value
+ * Return: returns the input val
  */
 
-int _evaluate(int i, int n)
+int square_root(int i, int j)
 {
-
-	if (n == 0 || n == 1)
-		return (n);
-
-	else if (i * i < n)
-		return (_evaluate(i + 1, n));
-
-	else 
-	return (i);
+	if (j * j > i)
+	{
+		return (-1);
+	}
+	if (j * j == i)
+	{
+		return (j);
+	}
+	return (square_root(i, j + 1));
 }
 
 /**
- *_sqrt_recursion - Entry point
- *@n: interger
- *Return: Always 0
+ * _sqrt_recursion - returns square root
+ * @n: input size
+ * Return: returns the natural square root of a number
  */
 
 int _sqrt_recursion(int n)
 {
-	int i = 0;
-
-	if (i < 0) 
+	if (n < 0)
+	{
 		return (-1);
-	return (_evaluate(i, n));
+	}
+	return (square_root(n, 1));
 }

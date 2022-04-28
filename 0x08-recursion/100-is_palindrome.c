@@ -21,7 +21,7 @@ int str_len(char *s)
  * @s: pointer
  * @i: index
  * @len: string length
- * Returb: Always 0
+ * Return: Always 0
  */
 
 int check_palindrome(char *s, int len, int i)
