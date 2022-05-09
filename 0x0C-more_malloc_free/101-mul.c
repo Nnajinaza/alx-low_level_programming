@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
+#include <limits.h>
 
 /**
  * _print - moves a string one place to the left and prints the string
