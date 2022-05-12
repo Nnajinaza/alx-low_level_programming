@@ -29,6 +29,7 @@ char *_string(char *point)
 	{
 		ptr[i] = point[i];
 	}
+	ptr[i] = '\0';
 	return (ptr);
 }
 
