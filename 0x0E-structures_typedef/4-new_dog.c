@@ -2,45 +2,71 @@
 #include <stdlib.h>
 
 /**
- * new_dog - New dog
- * @name: dog name
- * @age: dog age
- * @owner: dog owner
+ * _string - function holding the ptr
+ * @point: pointer holding the values
+ * Return: Always 0
+ */
+char *_string(char *point)
+{
+	char *ptr;
+	int i;
+	int len = 0;
+
+	if (point == NULL)
+	{
+		return (NULL);
+	}
+	while (point[len] != '\0')
+	{
+		len++;
+	}
+	ptr = malloc(sizeof(char) * (len + 1));
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; point[i] != '\0'; i++)
+	{
+		ptr[i] = point[i];
+	}
+	return (ptr);
+}
+
+/**
+ * new_dog - Funcion to create a new dog
+ * @name: initial name of dog
+ * @age: initial dog age
+ * @owner: initial dog owner
  * Return: Always 0
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	unsigned int a, b, c;
-
+	char *dog_name, *dog_owner;
 	dog_t *dog;
 
-	if (name == NULL || owner == NULL)
-		return (NULL);
 	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
+	{
 		return (NULL);
-	for (a = 0; name[a]; a++)
-	dog->name = malloc(a * sizeof(char));
-	if (dog->name == NULL)
+	}
+	dog_name = _string(name);
+	if (dog_name == NULL)
 	{
 		free(dog);
 		return (NULL);
 	}
-	for (c = 0; c < a; c++)
-	{
-		dog->name[c] = name[c];
-	}
+	dog->name = dog_name;
+
 	dog->age = age;
-	for (b = 0; owner[b]; b++)
-	dog->owner = malloc(b * sizeof(char));
-	if (dog->owner == NULL)
+
+	dog_owner = _string(owner);
+	if (dog_owner == NULL)
 	{
 		free(dog->name);
 		free(dog);
 		return (NULL);
 	}
-	for (c = 0; c < b; c++)
-		dog->owner[c] = owner[c];
+	dog->owner = dog_owner;
 	return (dog);
 }
