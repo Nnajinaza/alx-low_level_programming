@@ -10,6 +10,9 @@ unsigned int _length(char *str)
 {
 	unsigned int i;
 
+	if (str == NULL)
+		return (0);
+
 	for (i = 0; str[i]; i++)
 		;
 	return (i);
