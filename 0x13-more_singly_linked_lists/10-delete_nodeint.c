@@ -1,5 +1,12 @@
 #include "lists.h"
 
+/**
+ * delete_nodeint_at_index - function to delete node
+ * @head: pointer to list
+ * @index: position of element
+ *
+ * Return: on success 1 on failure -1
+ */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *temp = *head;
