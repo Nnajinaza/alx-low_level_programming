@@ -11,7 +11,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	int next = 0;
 	unsigned int index = 0;
-	
+
 	if (!b)
 		return (0);
 
