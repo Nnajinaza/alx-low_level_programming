@@ -10,11 +10,12 @@
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int set;
+
 	if (!n)
 		return (-1);
 
 	set = 1 << index;
 	*n = *n | set;
 
-	return(1);
+	return (1);
 }
