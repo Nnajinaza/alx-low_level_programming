@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
-	while (buffer[1024])
+	while (length)
 	{
 		length = read(file_from, buffer, 1024);
 		if ((write(file_to, buffer, length) != length || file_to == -1))
