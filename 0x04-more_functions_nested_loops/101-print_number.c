@@ -1,15 +1,14 @@
 #include "main.h"
 
-/*
- * print_number - Enjot point
+/**
+ * print_number - Entry point
  * @n: integer to be printed
- * @n1: Entry message
  *
+ * Return: void
  */
 void print_number(int n)
 {
 	unsigned int n1;
-
 
 	if (n < 0)
 	{
