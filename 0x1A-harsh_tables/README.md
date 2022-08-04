@@ -1,0 +1,2 @@
+Directory on inheritance
+
